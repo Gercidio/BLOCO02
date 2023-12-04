@@ -26,5 +26,5 @@ SELECT *, CONCAT('R$', FORMAT(preco, 2, 'pt-br')) AS preco FROM tb_produtos;
 SELECT * FROM tb_produtos WHERE preco > 500.00;
 SELECT * FROM tb_produtos WHERE preco < 500.00;
 
-
+UPDATE tb_produtos SET preco = 229.99 WHERE id = 8;
 

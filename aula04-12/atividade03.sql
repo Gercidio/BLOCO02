@@ -26,3 +26,5 @@ VALUE("Maria Silva", "maria.silva@email.com", "9A", "Introdução a Lógica de P
 
 SELECT * FROM tb_estudantes WHERE nota_final > 7.00;
 SELECT * FROM tb_estudantes WHERE nota_final < 7.00;
+
+UPDATE tb_estudantes SET nota_final = 7.5 WHERE id = 5;

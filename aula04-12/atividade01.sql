@@ -28,4 +28,5 @@ SELECT *, DATE_FORMAT(data_inicio, '%d/%m/%Y') AS data_inicio FROM tb_funcionari
 SELECT * FROM tb_funcionarios WHERE salario > 2000.00;
 SELECT * FROM tb_funcionarios WHERE salario < 2000.00;
 
-ALTER TABLE tb_produtos MODIFY preco decimal(6, 2);
+ALTER TABLE tb_funcionarios MODIFY preco decimal(6, 2);
+UPDATE tb_funcionarios SET salario = 2300.00 WHERE id = 5;
